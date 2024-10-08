@@ -1,0 +1,211 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="about.html">About Me</a>
+                    <a href="project.html">Projects</a>
+                    <a href="skill.html">Skills</a>
+                    <a href="contact.html">Contacts</a>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="content-1">
+            <div class="info">
+                <h3>Let's Chat.</h3>
+                <p>Tell me about your <br>
+                    projects</p>
+                <h4>Let's create something together ✍️📖</h4>
+            </div>
+
+            <div class="G-mail">
+                <a href="mailto:katuwalbishal367@gmail.com">
+                    <img src="image/gmail.png" alt="">
+                </a>
+                <div class="mail">
+                    <h2>Mail me at <br>katuwalbishal367@gmail.com</h2>
+                </div>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="#" method="POST">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>&copy; 2024 Bishal Katuwal. All rights reserved.</p>
+</footer>
+
+</html>
+
+
+<style>
+    footer {
+        background-color: #010622;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    .info {
+        margin: 20px;
+    }
+
+    .info h3 {
+        font-size: 40px;
+        font-family: "Dancing Script", cursive;
+
+    }
+
+    .info p {
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .info h4 {
+        font-size: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: gray;
+
+    }
+
+
+    .container-1 {
+        display: flex;
+        gap: 300px;
+
+    }
+
+    .mail h2 {
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    .G-mail {
+        margin-left: 70px;
+        margin-top: 100px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .G-mail img {
+        width: 30px;
+        height: auto;
+    }
+
+    navbar {
+        height: 75px;
+        background-color: #010622;
+        /* Navbar background color */
+        padding: 15px 0;
+        /* Vertical padding for the navbar */
+    }
+
+    .navbar ul {
+        list-style: none;
+        /* Remove bullets from list */
+        display: flex;
+        /* Display list items in a row */
+        justify-content: center;
+        /* Center items horizontally */
+        padding: 0;
+        /* Remove default padding */
+    }
+
+    .navbar li {
+        margin: 0 15px;
+        /* Space between navbar items */
+    }
+
+    .navbar a {
+        color: white;
+        /* Navbar text color */
+        text-decoration: none;
+        /* Remove underline */
+        padding: 10px 15px;
+        /* Padding for links */
+        font-weight: bold;
+        /* Make the text bold */
+        transition: background-color 0.3s;
+        /* Smooth transition for hover effect */
+        border-radius: 5px;
+        /* Rounded corners for links */
+    }
+
+    .navbar a:hover {
+        background-color: red;
+        text-decoration: underline;
+        /* Lighten background on hover */
+    }
+
+    .form-container {
+        background: rgba(225, 225, 225, 1);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        width: 400px;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    input:focus,
+    textarea:focus {
+        border-color: red;
+        outline: none;
+    }
+
+    button {
+        width: 30%;
+        padding: 10px;
+        background-color: red;
+        /* Bootstrap primary color */
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #C80B04;
+        /* Darken the button on hover */
+    }
+</style>

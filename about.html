@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="about.html">About Me</a>
+                    <a href="project.html">Projects</a>
+                    <a href="skill.html">Skills</a>
+                    <a href="contact.html">Contacts</a>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="image">
+            <img src="image/mypic(4).jpg" alt="...">
+        </div>
+
+        <div class="name-info">
+            <h2>Bishal Katuwal</h2>
+            <a href="mailto:katuwalbishal367@gmail.com" class="email-link" target="_blank">Email  Me</a>
+            <p>
+               I am Bishal Katuwal, and I am 20 years old, currently living in Bhaktapur. 
+                I recently completed a Django class,  <br> which significantly enhanced my understanding 
+                 of web development and backend programming.  Learning Django opened <br> my eyes to 
+                  the power of creating dynamic web applications,  and I’m eager to apply these skills in 
+                  real-world projects. <br> Currently, I’m focused on learning HTML and CSS. I believe that having a solid grasp of front-end
+                 technologies is essential for any <br> web developer, as it allows me to create visually appealing and 
+                  user-friendly interfaces. I enjoy experimenting with  different layouts <br> and styles, and I’m excited
+                   to see how I can combine my knowledge of Django with my front-end skills.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bishal Katuwal. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+
+<style>
+.email-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: red;/* Gmail blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+   transition: transform 0.3s;
+}
+.email-link:hover {
+    background-color: #C80B04 ; /* Darker shade on hover */
+    transform: scale(1.1)
+}
+    footer {
+        background-color: #010622;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+        .name-info {
+        text-align: center;
+       margin: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+    .name-info h2 {
+        font-size: 40px;
+    }
+
+    .name-info p {
+        margin-top: 20px;
+        line-height: 1.7;
+    
+    
+    }
+
+    .image {
+       
+        margin-left:680px;
+        margin-top: 20px;
+    }
+
+    .image img {
+        justify-content: center;
+        border-radius: 50%;
+        /* Makes the image circular */
+        width: 180px;
+        /* Fixed width */
+        height: auto;
+        /* Maintain aspect ratio */
+        border-color: white;
+        transition: transform 0.3s ease, filter 0.3s ease;
+        /* Smooth transition for scaling and brightness */
+    }
+
+    .image:hover img {
+        transform: scale(1.1);
+        /* Scale the image on hover */
+        filter: brightness(90%);
+        /* Dim the image on hover */
+    }
+
+    * {
+        margin: 0;
+        /* Reset margins */
+        padding: 0;
+        /* Reset padding */
+        box-sizing: border-box;
+        /* Ensure padding and borders are included in element's total width/height */
+    }
+
+    body {
+        background-color: #010622;
+        /* Background color for the body */
+        color: white;
+        /* Default text color */
+    }
+
+    .navbar {
+        height: 75px;
+        background-color: #010622;
+        /* Navbar background color */
+        padding: 15px 0;
+        /* Vertical padding for the navbar */
+    }
+
+    .navbar ul {
+        list-style: none;
+        /* Remove bullets from list */
+        display: flex;
+        /* Display list items in a row */
+        justify-content: center;
+        /* Center items horizontally */
+        padding: 0;
+        /* Remove default padding */
+    }
+
+    .navbar li {
+        margin: 0 15px;
+        /* Space between navbar items */
+    }
+
+    .navbar a {
+        color: white;
+        /* Navbar text color */
+        text-decoration: none;
+        /* Remove underline */
+        padding: 10px 15px;
+        /* Padding for links */
+        font-weight: bold;
+        /* Make the text bold */
+        transition: background-color 0.3s;
+        /* Smooth transition for hover effect */
+        border-radius: 5px;
+        /* Rounded corners for links */
+    }
+
+    .navbar a:hover {
+        background-color: red;
+        text-decoration: underline;
+        /* Lighten background on hover */
+    }
+</style>
